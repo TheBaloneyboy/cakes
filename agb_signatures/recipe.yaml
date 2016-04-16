@@ -1,0 +1,15 @@
+description: Patch AGB_FIRM signatures
+
+patches:
+    patch.bin:
+        type: AGB_FIRM
+        versions:
+            o3ds:
+                0x0B: 0x080182A8
+
+            n3ds:
+                0x00: 0xFA27AF69 
+                # N3DS offset is not valid obviously
+                # Just a placeholder until someone with a n3DS comes along
+                # Or I get some dumps
+                # Or somebody graciously donates a n3DS 'For Science™'
